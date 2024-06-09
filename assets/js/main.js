@@ -125,17 +125,15 @@
         'click',
         '.scrollto',
         function (e) {
-            if (select(this.hash)) {
-                e.preventDefault()
-
-                let navbar = select('#navbar')
-                if (navbar.classList.contains('navbar-mobile')) {
-                    navbar.classList.remove('navbar-mobile')
-                    let navbarToggle = select('.mobile-nav-toggle')
-                    navbarToggle.classList.toggle('bi-list')
-                    navbarToggle.classList.toggle('bi-x')
+            e.preventDefault()
+            if (this.hash) {
+                const sectionId = this.hash.substring(1)
+                const currentPage = window.location.pathname
+                if (currentPage === '/index.html') {
+                    scrollto(`#${sectionId}`)
+                } else {
+                    window.location.href = `/index.html#${sectionId}`
                 }
-                scrollto(this.hash)
             }
         },
         true
@@ -225,16 +223,30 @@
     })
 
     /**
-     * Testimonials slider
+     * Client slider
      */
-    new Swiper('.client-slider', {
-        speed: 600,
+    const swiper = new Swiper('.client-slider', {
+        speed: 800,
         loop: true,
         autoplay: {
-            delay: 2000,
+            delay: 0,
             disableOnInteraction: false,
         },
         slidesPerView: 'auto',
+        spaceBetween: 0,
+        loopAdditionalSlides: 1,
+        allowTouchMove: false,
+        on: {
+            autoplay: {
+                delay: 0,
+                disableOnInteraction: false,
+            },
+            slideChangeTransitionEnd: function () {
+                this.wrapperEl.style.transition = 'none'
+                this.wrapperEl.style.transform = `translate3d(${this.translate}px, 0, 0)`
+                this.wrapperEl.style.transition = ''
+            },
+        },
         pagination: {
             el: '.swiper-pagination',
             type: 'bullets',

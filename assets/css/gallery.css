@@ -1,3 +1,73 @@
 .empty {
     margin-top: 50px;
 }
+
+.gallery h2::after {
+    background-color: #467485;
+}
+
+.gallery h2 {
+    color: #467485;
+}
+
+.gallery .gallery-item {
+    margin-bottom: 30px;
+}
+
+.gallery #gallery-filters {
+    padding: 0;
+    margin: 0 auto 20px auto;
+    list-style: none;
+    text-align: center;
+}
+
+.gallery #gallery-filters li {
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px 15px 10px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #444444;
+    margin-bottom: 5px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 3px;
+}
+
+.gallery #gallery-filters li:hover {
+    color: #3bc08e;
+}
+
+.gallery #gallery-filters li.filter-active {
+    color: #fff;
+    background: #3bc08e;
+}
+
+.gallery .gallery-wrap {
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background: rgba(45, 64, 95, 0.6);
+}
+
+.gallery .gallery-wrap {
+    transform: scale(0.9);
+}
+
+.gallery .gallery-wrap:hover {
+    transform: scale(1);
+}
+
+.gallery .gallery-wrap img {
+    transition: all ease-in-out 0.3s;
+}
+
+.gallery .container h2 {
+    color: #3bc08e;
+}
+
+.gallery .container h2::after {
+    background-color: #3bc08e;
+}

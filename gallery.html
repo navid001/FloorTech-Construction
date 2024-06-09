@@ -63,9 +63,7 @@
                 <nav id="navbar" class="navbar">
                     <ul>
                         <li>
-                            <a class="nav-link scrollto active" href="#hero"
-                                >Home</a
-                            >
+                            <a class="nav-link scrollto" href="#hero">Home</a>
                         </li>
                         <li>
                             <a class="nav-link scrollto" href="#about"
@@ -78,41 +76,37 @@
                             >
                         </li>
                         <li>
-                            <a class="nav-link scrollto" href="clients.html"
-                                >Client</a
-                            >
+                            <a class="nav-link" href="clients.html">Client</a>
                         </li>
 
                         <li class="dropdown">
-                            <a href="gallery.html?filter=all"
-                                ><span>Gallery</span>
-                                <i class="bi bi-chevron-down"></i
-                            ></a>
+                            <a href="gallery.html?filter=all">
+                                <span class="active">Gallery</span>
+                                <i class="bi bi-chevron-down"></i>
+                            </a>
                             <ul>
                                 <li>
-                                    <a href="gallery.html?filter=epoxy-flooring"
+                                    <a href="gallery.html?filter=epoxy"
                                         >Epoxy Flooring</a
                                     >
                                 </li>
                                 <li>
-                                    <a href="gallery.html?filter=etp-coating"
+                                    <a href="gallery.html?filter=etp"
                                         >ETP Coating</a
                                     >
                                 </li>
                                 <li>
-                                    <a
-                                        href="gallery.html?filter=polish-concrete"
+                                    <a href="gallery.html?filter=polish"
                                         >Polish Concrete</a
                                     >
                                 </li>
                                 <li>
-                                    <a
-                                        href="gallery.html?filter=profile-sheet-coating"
+                                    <a href="gallery.html?filter=profile"
                                         >Profile Sheet Coating</a
                                     >
                                 </li>
                                 <li>
-                                    <a href="gallery.html?filter=sports-coating"
+                                    <a href="gallery.html?filter=sports"
                                         >Sports Coating</a
                                     >
                                 </li>
@@ -133,136 +127,1178 @@
                 </nav>
             </div>
         </header>
-        <div class="empty"></div>
-        <!-- Filter Selector -->
-        <section id="portfolio" class="portfolio">
-            <div class="container" data-aos="fade-up">
-                <div class="row">
-                    <div class="col-lg-12 d-flex justify-content-center">
-                        <ul id="portfolio-flters">
-                            <li data-filter="*" class="filter-active">All</li>
-                            <li data-filter=".filter-epoxy-flooring">
-                                Epoxy Flooring
-                            </li>
-                            <li data-filter=".filter-etp-coating">
-                                ETP Coating
-                            </li>
-                            <li data-filter=".filter-polish-concrete">
-                                Polish Concrete
-                            </li>
-                            <li data-filter=".filter-profile-sheet-coating">
-                                Profile Sheet Coating
-                            </li>
-                            <li data-filter=".filter-sports-coating">
-                                Sports Coating
-                            </li>
-                            <li data-filter=".filter-waterproofing">
-                                Waterproofing
-                            </li>
-                        </ul>
+
+        <main id="main">
+            <!-- ======= Gallery Section ======= -->
+            <div class="empty"></div>
+            <section id="gallery" class="gallery">
+                <div class="container" data-aos="fade-up">
+                    <div class="section-title">
+                        <h2>Gallery</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 d-flex justify-content-center">
+                            <ul id="gallery-filters">
+                                <li data-filter="*" class="filter-all">All</li>
+                                <li data-filter=".filter-epoxy">
+                                    Epoxy Flooring
+                                </li>
+                                <li data-filter=".filter-etp">Etp Coating</li>
+                                <li data-filter=".filter-polish">
+                                    Polish Concrete
+                                </li>
+                                <li data-filter=".filter-profile">
+                                    Profile Sheet Coating
+                                </li>
+                                <li data-filter=".filter-sports">
+                                    Sports Coating
+                                </li>
+                                <li data-filter=".filter-waterproofing">
+                                    Water Proofing
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="row gallery-container justify-content-center">
+                        <div class="epoxy-items">
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-epoxy"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/EpoxyFlooring/ef1.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/EpoxyFlooring/ef1.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-epoxy"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/EpoxyFlooring/ef2.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/EpoxyFlooring/ef2.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-epoxy"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/EpoxyFlooring/ef3.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/EpoxyFlooring/ef3.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-epoxy"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/EpoxyFlooring/ef4.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/EpoxyFlooring/ef4.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-epoxy"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/EpoxyFlooring/ef5.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/EpoxyFlooring/ef5.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-epoxy"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/EpoxyFlooring/ef6.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/EpoxyFlooring/ef6.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-epoxy"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/EpoxyFlooring/ef7.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/EpoxyFlooring/ef7.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="etp-items">
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-etp"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/ETPCoating/etp1.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/ETPCoating/etp1.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-etp"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/ETPCoating/etp2.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/ETPCoating/etp2.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-etp"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/ETPCoating/etp3.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/ETPCoating/etp3.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-etp"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/ETPCoating/etp4.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/ETPCoating/etp4.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="polish-items">
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-polish"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/PolishConcrete/p1.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/PolishConcrete/p1.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-polish"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/PolishConcrete/p2.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/PolishConcrete/p2.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-polish"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/PolishConcrete/p3.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/PolishConcrete/p3.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-polish"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/PolishConcrete/p4.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/PolishConcrete/p4.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-polish"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/PolishConcrete/p5.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/PolishConcrete/p5.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-polish"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/PolishConcrete/p6.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/PolishConcrete/p6.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-polish"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/PolishConcrete/p7.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/PolishConcrete/p7.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-polish"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/PolishConcrete/p8.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/PolishConcrete/p8.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-polish"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/PolishConcrete/p9.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/PolishConcrete/p9.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-polish"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/PolishConcrete/p10.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/PolishConcrete/p10.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-polish"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/PolishConcrete/p11.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/PolishConcrete/p11.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-polish"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/PolishConcrete/p12.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/PolishConcrete/p12.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-polish"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/PolishConcrete/p13.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/PolishConcrete/p13.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-polish"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/PolishConcrete/p14.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/PolishConcrete/p14.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-polish"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/PolishConcrete/p15.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/PolishConcrete/p15.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-polish"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/PolishConcrete/p16.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/PolishConcrete/p16.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-polish"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/PolishConcrete/p17.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/PolishConcrete/p17.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="profile-items">
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-profile"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/ProfileSheetCoating/psc7.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/ProfileSheetCoating/psc7.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-profile"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/ProfileSheetCoating/psc1.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/ProfileSheetCoating/psc1.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-profile"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/ProfileSheetCoating/psc2.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/ProfileSheetCoating/psc2.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-profile"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/ProfileSheetCoating/psc3.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/ProfileSheetCoating/psc3.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-profile"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/ProfileSheetCoating/psc4.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/ProfileSheetCoating/psc4.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-profile"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/ProfileSheetCoating/psc5.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/ProfileSheetCoating/psc5.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-profile"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/ProfileSheetCoating/psc6.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/ProfileSheetCoating/psc6.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sports-items">
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-sports"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/SportsCoating/sc1.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/SportsCoating/sc1.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-sports"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/SportsCoating/sc2.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/SportsCoating/sc2.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-sports"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/SportsCoating/sc3.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/SportsCoating/sc3.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-sports"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/SportsCoating/sc4.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/SportsCoating/sc4.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-sports"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/SportsCoating/sc5.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/SportsCoating/sc5.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-sports"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/SportsCoating/sc6.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/SportsCoating/sc6.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-sports"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/SportsCoating/sc7.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/SportsCoating/sc7.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-sports"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/SportsCoating/sc8.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/SportsCoating/sc8.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-sports"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/SportsCoating/sc9.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/SportsCoating/sc9.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-sports"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/SportsCoating/sc10.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/SportsCoating/sc10.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-sports"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/SportsCoating/sc11.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/SportsCoating/sc11.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="waterproof-items">
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-waterproofing"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/Waterproofing/wf1.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/Waterproofing/wf1.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-waterproofing"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/Waterproofing/wf2.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/Waterproofing/wf2.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-waterproofing"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/Waterproofing/wf3.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/Waterproofing/wf3.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-waterproofing"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/Waterproofing/wf4.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/Waterproofing/wf4.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-waterproofing"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/Waterproofing/wf5.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/Waterproofing/wf5.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-waterproofing"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/Waterproofing/wf6.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/Waterproofing/wf6.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-waterproofing"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/Waterproofing/wf7.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/Waterproofing/wf7.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-waterproofing"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/Waterproofing/wf8.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/Waterproofing/wf8.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-waterproofing"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/Waterproofing/wf9.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/Waterproofing/wf9.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-waterproofing"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/Waterproofing/wf10.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/Waterproofing/wf10.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-waterproofing"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/Waterproofing/wf11.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/Waterproofing/wf11.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-waterproofing"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/Waterproofing/wf12.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/Waterproofing/wf12.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-waterproofing"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/Waterproofing/wf13.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/Waterproofing/wf13.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-waterproofing"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/Waterproofing/wf14.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/Waterproofing/wf14.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-waterproofing"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/Waterproofing/wf15.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/Waterproofing/wf15.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-waterproofing"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/Waterproofing/wf16.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/Waterproofing/wf16.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 gallery-item filter-waterproofing"
+                            >
+                                <div class="gallery-wrap">
+                                    <a
+                                        href="assets/img/gallery/Waterproofing/wf17.jpeg"
+                                        class="gallery-lightbox"
+                                        data-gallery="epoxy"
+                                    >
+                                        <img
+                                            src="assets/img/gallery/Waterproofing/wf17.jpeg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </section>
+        </main>
 
-            <!-- Portfolio Section -->
-            <div class="container" data-aos="fade-up">
-                <div class="row portfolio-container justify-content-center">
-                    <div
-                        class="col-lg-4 col-md-6 portfolio-item filter-epoxy-flooring"
-                    >
-                        <div class="portfolio-wrap">
-                            <img
-                                src="assets/img/portfolio/p1.jpeg"
-                                class="img-fluid"
-                            />
-                        </div>
+        <!-- End #main -->
+
+        <!-- ======= Footer ======= -->
+        <footer id="footer">
+            <div class="container d-md-flex py-4">
+                <div class="me-md-auto text-center text-md-start">
+                    <div class="copyright">
+                        &copy; Copyright <strong><span>Bikin</span></strong
+                        >. All Rights Reserved
                     </div>
-                    <div
-                        class="col-lg-4 col-md-6 portfolio-item filter-epoxy-flooring"
-                    >
-                        <div class="portfolio-wrap">
-                            <img
-                                src="assets/img/portfolio/p2.jpeg"
-                                class="img-fluid"
-                            />
-                        </div>
-                    </div>
-                    <div
-                        class="col-lg-4 col-md-6 portfolio-item filter-epoxy-flooring"
-                    >
-                        <div class="portfolio-wrap">
-                            <img
-                                src="assets/img/portfolio/p3.jpeg"
-                                class="img-fluid"
-                            />
-                        </div>
-                    </div>
-                    <div
-                        class="col-lg-4 col-md-6 portfolio-item filter-epoxy-flooring"
-                    >
-                        <div class="portfolio-wrap">
-                            <img
-                                src="assets/img/portfolio/p1.jpeg"
-                                class="img-fluid"
-                            />
-                        </div>
+                    <div class="credits">
+                        Designed by
+                        <a href="https://bootstrapmade.com/">BootstrapMade</a>
                     </div>
                 </div>
+                <div
+                    class="social-links text-center text-md-right pt-3 pt-md-0"
+                >
+                    <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> -->
+                    <a
+                        href="https://www.facebook.com/profile.php?id=100090514449112
+"
+                        target="_blank"
+                        class="facebook"
+                        ><i class="bx bxl-facebook"></i
+                    ></a>
+                    <!-- <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a> -->
+                    <!-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> -->
+                    <!-- <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> -->
+                </div>
             </div>
-        </section>
+        </footer>
+        <!-- End Footer -->
 
-        <script src="path/to/isotope.pkgd.min.js"></script>
-        <script src="path/to/glightbox.min.js"></script>
-        <script src="path/to/swiper-bundle.min.js"></script>
-        <script>
-            document.addEventListener('DOMContentLoaded', () => {
-                // Initialize Isotope
-                let portfolioContainer = document.querySelector(
-                    '.portfolio-container'
-                )
-                let portfolioIsotope = new Isotope(portfolioContainer, {
-                    itemSelector: '.portfolio-item',
-                    layoutMode: 'fitRows',
-                })
+        <div id="preloader"></div>
+        <a
+            href="#"
+            class="back-to-top d-flex align-items-center justify-content-center"
+            ><i class="bi bi-arrow-up-short"></i
+        ></a>
 
-                // Portfolio filters
-                let portfolioFilters = document.querySelectorAll(
-                    '#portfolio-flters li'
-                )
-                portfolioFilters.forEach((filter) => {
-                    filter.addEventListener('click', (e) => {
-                        e.preventDefault()
-                        portfolioFilters.forEach((el) =>
-                            el.classList.remove('filter-active')
-                        )
-                        filter.classList.add('filter-active')
+        <!-- Vendor JS Files -->
+        <script src="assets/vendor/aos/aos.js"></script>
+        <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+        <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+        <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+        <script src="assets/vendor/php-email-form/validate.js"></script>
 
-                        portfolioIsotope.arrange({
-                            filter: filter.getAttribute('data-filter'),
-                        })
-                    })
-                })
-
-                // Initialize GLightbox
-                const portfolioLightbox = GLightbox({
-                    selector: '.portfolio-lightbox',
-                })
-
-                // Initialize Swiper for lightbox
-                const swiper = new Swiper('.portfolio-lightbox', {
-                    loop: true,
-                    speed: 400,
-                    autoplay: {
-                        delay: 5000,
-                        disableOnInteraction: false,
-                    },
-                    pagination: {
-                        el: '.swiper-pagination',
-                        type: 'bullets',
-                        clickable: true,
-                    },
-                })
-            })
-        </script>
+        <!-- Template Main JS File -->
+        <script src="assets/js/gallery.js"></script>
     </body>
 </html>

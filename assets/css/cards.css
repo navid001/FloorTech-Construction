@@ -68,3 +68,10 @@
         grid-template-columns: repeat(1, 1fr);
     }
 }
+
+.clients .container h2 {
+    color: #3bc08e;
+}
+.clients .container h2::after {
+    background-color: #3bc08e;
+}
